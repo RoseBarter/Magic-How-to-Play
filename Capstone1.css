@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Beleren Bold";
+  src:
+    url("./Beleren2016-Bold.woff") format("woff"),
+    url("./Beleren2016-Bold.ttf") format("truetype"),
+    url("./Beleren2016-Bold.svg#Beleren2016-Bold") format("svg");
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* Beleren SmallCaps Bold */
+@font-face {
+  font-family: "Beleren Small Caps Bold";
+  src:
+    url("./Beleren2016SmallCaps-Bold.woff") format("woff"),
+    url("./Beleren2016SmallCaps-Bold.ttf") format("truetype"),
+    url("./Beleren2016SmallCaps-Bold.svg#Beleren2016SmallCaps-Bold") format("svg");
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* Beleren SmallCaps BoldItalic */
+@font-face {
+  font-family: "Beleren SmallCaps BoldItalic";
+  src:
+    url("./Beleren2016SmallCaps-BoldItalic.woff") format("woff"),
+    url("./Beleren2016SmallCaps-BoldItalic.ttf") format("truetype"),
+    url("./Beleren2016SmallCaps-BoldItalic.svg#Beleren2016SmallCaps-BoldItalic") format("svg");
+  font-style: italic;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-image: url(images/herringbone.png);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 48px;
+}
+
+.image {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: cover;
+  /* border: solid 1px red; */
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+.image1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+header,
+h2,
+h3,
+h4{
+  font-family: 'Beleren Bold', 'Beleren2016';
+}
+
+p,
+ol,
+ul{
+  font-family: 'Beleren SmallCaps Bold', 'Beleren2016 Small Caps';
+}
+
+.page{
+  max-width: 1000px;
+  margin-left: 200px;
+  text-align: justify;
+}
+
+a:link,
+a:focus,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+.banner {
+  max-width: 100%;
+  margin: 0px;
+  height: 50px;
+  background-image: url(images/stardust.png);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: 0%, 100%;
+}
+
+footer {
+  font-size: 15px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+/*start of the menu*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  height:100%;
+}
+nav {
+  max-width: 100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 0 auto;
+  background-image: url(images/stardust.png);
+}
+nav ul {
+  text-align: center;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%); */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a:link {
+  padding: 28px;
+  text-transform:uppercase;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 1);
+}
+
+img {
+  height:80%;
+  width:80%;
+}
+/*End of Menu*/

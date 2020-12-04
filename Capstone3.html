@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>How to MTG</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Capstone1.css">
+  <link href="https://unpkg.com/@saeris/typeface-beleren-bold@latest/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <link href="https://unpkg.com/@saeris/typeface-beleren-bold@latest/index.css" rel="stylesheet" type="text/css" />
+  <!--Steps of a Turn-->
+  <header>
+    <h1>The Steps of a Turn</h1>
+  </header>
+
+  <section>
+    <!--Change these ps to links when other pages are made-->
+  <nav>
+    <ul>
+      <li><a href="Capstone1.html" target="_blank">Home</a></li>
+      <li><a href="Capstone2.html" target="_blank">Game Rules</a></li>
+      <li><a href="Capstone3.html" target="_blank">The Steps of a Turn</a></li>
+      <!-- <li><a href="Capstone4.html" target="_blank">Different Ways to Play</a></li> -->
+      <!-- <li><a href="Capstone5.html" targer="_blank">Where to start</a></li> -->
+    </ul>
+  </nav>
+
+
+  </section>
+  <section class="image">
+    <img src="images/chandra.jpg" />
+  </section>
+
+  <div class="page">
+  <section>
+    <h2>A turn in Magic the Gathering is broken down into steps:</h2>
+    <ol>
+      <!--Icky Numbers-->
+      <li><a href="#untap">Untap</a></li>
+      <li><a href="#upkeep">Upkeep</a></li>
+      <li><a href="#draw">Draw</a></li>
+      <li><a href="#precombat">Precombat Main Phase</a></li>
+      <li><a href="#combat">Combat</a></li>
+      <li><a href="#postcombat">Postcombat Main Phase</a></li>
+      <li><a href="#endstep">End Step</a></li>
+      <li><a href="#cleanup">Cleanup</a></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 id="untap">Untap</h2>
+      <p>The untap phase is rather simple, no actions can be taken by any player, and any permmanents under your control on the battlefield that were tapped become untapped.</p>
+  </section>
+
+  <section>
+    <h2 id="upkeep">Upkeep</h2>
+      <p>The upkeep step does nothing on its own, but there are cards that have effects during your upkeep. If you want to play an instant or activate an ability before you draw a card, now would be a good time to do so.</p>
+  </section>
+
+  <section>
+    <h2 id="draw">Draw</h2>
+      <p>The draw step is a short one. You take the top card of your deck and "draw" it, by putting it into your hand. Notably, you are allowed to do things like playing any instants you have or activating abilities during this step, after the card is drawn.</p>
+  </section>
+
+  <section>
+    <h2 id="precombat">Precombat Main Phase</h2>
+      <p>This is where <em>the meat</em> of a turn happens. During your main phase you are allowed to take several actions:</p>
+        <ul>
+          <li>You can play one land. Keep in mind that even though you get another main phase later, you're only allowed one land to be played per turn, unless otherwise specified.</li>
+          <li>You may cast spells such as:</li>
+            <ul>
+              <li>Artifacts</li>
+              <li>Creatures</li>
+              <li>Enchantments</li>
+              <li>Planeswalkers</li>
+              <li>Sorceries</li>
+            </ul>
+          <li>You may also play instant cards during this phase, though they are not limited to this phase the same way the other card types are.</li>
+        </ul>
+  </section>
+
+  <section>
+    <h2 id="combat">Combat</h2>
+      <p>Combat is broken down into several steps:</p>
+      <ul>
+        <li><h3>Beginning of Combat</h3></li>
+          <p>Nothing actually happens in the beginning of combat, but much like the upkeep certain effects on cards reference this step and trigger here.</p>
+        <li><h3>Declare Attackers</h3></li>
+          <p>During this step you choose from the creatures you control and decided which of them you will attack with, and which opponent each of those creatures will attack. You represent this action by tapping each creature who is attacking.</p>
+        <li><h3>Declare Blockers</h3></li>
+          <p>After Attackers have been declared, the opponent(s) who are being attacked may chose to use some of their own creatures to block with. The player does this action by declaring each creature they wish to block with, noteably multiple creatures can be used to block one attacking creature, but one creature may not block more than one attacking creatures. This action is performed by the opponent you are attacking, you do not need to do anything during this step, though you may, if you wish to play an instant or activate an ability. </p>
+        <li><h3>Assign Damage</h3></li>
+          <p>During this step damage is assinged from all creatures in combat, meaning all attacking and blocking creatures. They deal their damage to each other if they are blocked/blocking, and they deal damage to the opponenent if they are attacking and unblocked.</p>
+        <li><h3>End of Combat</h3></li>
+          <p>Similarly to the beginning of combat nothing really happens here but actions, such as instants and activated abilities, may be used. Noteably, if an effect prevents a creature from dealing damage at this point, it will not retroactively remove the damage that was done in the assign damage step.</p>
+        </ul>
+  </section>
+
+  <section>
+    <h2 id="postcombat">Postcombat Main Phase</h2>
+      <p>The post combat main phase is identical to the precombat main phase, however, any effects that reference the postcombat main phase, rather than the precombat main phase, will trigger now.</p>
+  </section>
+
+  <section>
+    <h2 id="endstep">End step</h2>
+      <p>The end step has the same role as the upkeep, nothing happens here, but effects can trigger, and any effects that reference "until the end of turn" will end here. An opponent's end step, just before your turn, is also a very good time to take an action if you have left over resources from a previous turn.</p>
+  </section>
+
+  <section>
+    <h2 id="cleanup">Cleanup</h2>
+      <p>No actions can be taken during the cleanup step, this is just where the game <em>cleans up</em> the board. The player who's turn it is discards cards until they have only seven remaining, and any damage done to creatures ceases to be tracked, bringing all creatures back up to their full life.</p>
+  </section>
+  </div>
+
+  <div class="banner">
+    <footer>
+      <p>Website by Rose Barter</p>
+    </footer>
+  </div>
+</body>
+</html>
